@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="s1">
+<head>
+<title>Moja spletna stran</title>
+<meta charset = "UTF-8">
+<meta name = "description" content = "Spletna stran">
+<meta name = "keywords" content = "html, spletna stran, tag">
+<meta name = "author" content = "Neža Kumalić">
+<meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+<link rel = "stylesheet" type = "text/css" href = "oblika.css"/>
+</head>
+<body>
+
+<div class="side-content left-content">
+    <!-- Vsebina leve stranske vsebine gre tukaj -->
+</div>
+<div class="side-content right-content">
+    <!-- Vsebina desne stranske vsebine gre tukaj -->
+</div>
+
+<header style="text-align: center;">                    
+
+        <h1>ARDUINO</h1>
+        
+</header>
+<nav>
+  <a href="index.html">DOMOV</a>
+  <a href="arduino.html">ARDUINO</a>
+  <div class="dropdown"> 
+        <a
+		button class="dropbtn">PROJEKT</button>
+		</a>
+        <div class="dropdown-content">
+            <a href="elementi.html">ELEKTRONSKI ELEMENTI</a>
+			<div class="dropdown-submenu">
+			    <a href="izvedba.html">IZVEDBA</a>
+                <div class="dropdown-submenu-content">
+					<a href="program.html">PROGRAM</a>
+                    <a href="projekt_arduino.html">MOJ PROJEKT</a>                      
+                    <a href="uporabnost.html">UPORABNOST</a>		    
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<p>Pri projektu sem sodelovala s sošolcem Matejem, s katerim sva za projekto nalogo dobila <b>vodni senzor Arduino</b>. 
+Projekta sva se lotila tako, da sva prvo pogledala že obstoječe projekte v povezavi s tem senzorjem.
+Takoj sva našla projekt, ki nama je bil všeč in se ga lotila ustvarjati. Končni namen najinega projekta pa je bil, 
+da, ko je <b>vodni senzor izven vode oz. čisto malo pod vodo sveti zelena LED dioda, 
+ko je vodni senzor globje pod vodo - približno med eno tretjino in polovico senzorja
+sveti rumena LED dioda in ko je vodni senzor pod vodno gladino že za več kot polovico senzorja zasveti rdeča LED dioda</b>.</p>
+<div class="center">
+<table border="2">
+        <caption><h6>PROJEKT - VODNI SENZOR</h6></caption>
+		<tr> 
+            <th>ŠTEVILKA FAZE</th>
+            <th>POSTOPEK</th>
+            <th>SLIKA</th>
+        </tr>
+        <tr> 
+		    <td><i>1. faza</i></td>
+            <td>V prvi fazi sva si pripravila vse potrebne pripomočke - Arduino uno, prototipska ploščica, vodni senzor, 3 žice ženski-moški, 
+			4 žice moški, 3 LED diode, 3 upore, lonček z vodo in USB kabel (njihov namen si lahko preberete <a href="elementi.html">tukaj</a>).</td>
+            <td><img src="Slike/slika8.jpg" width="350" height="250">
+			<figure>
+               <figcaption>Vir: Neža Kumalić, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+		<tr> 
+		    <td><i>2. faza</i></td>
+            <td>V drugi fazi sva skupaj z žicami ženski-moški zvezala vodni senzor in Arduino uno. Moška stran žice 
+			se je povezala z Arduino uno, ženska stran pa z vodni senzorjem.</td>
+            <td><img src="Slike/slika9.jpg" width="350" height="250">
+			<figure>
+               <figcaption>Vir: Neža Kumalić, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+		<tr> 
+		    <td><i>3. faza</i></td>
+            <td>V tretji fazi sva v prototipsko ploščico postavila tri Led diode - rdečo, rumeno in zeleno. Na isti vrstici 
+			prototipske ploščice, kjer stoji katoda LED diode sva dodala upor, ki je bil povezan z negativno vrstico prototipske plošče.
+            Na vrstico, kjer je anoda LED diode pa sva dodala moške žice, ki so bile povezane z Arduino uno.</td>
+            <td><img src="Slike/slika10.jpg" width="350" height="250">
+			<figure>
+               <figcaption>Vir: Neža Kumalić, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+		<tr> 
+		    <td><i>4. faza</i></td>
+            <td colspan="2">V četrti fazi sva pripravila lonček z vodo,<br>
+			celotno vezavo opisano zgoraj sva povezala 
+			skupaj z USB kablom v računalnik <br>
+			in na Arduino (IDE) napisala kodo (kaj je Arduino 
+			(IDE) in kodo si lahko pogledaš <a href="program.html">tukaj</a>).</td>
+        </tr>
+		<tr> 
+		    <td><i>5. faza</i></td>
+            <td>V peti fazi sva pogledala ali nama projekt dela in ga poskusila. V teji fazi je svetila zelena LED dioda, ker
+            je bil vodni senzor še izven dosega vode.</td>
+            <td><img src="Slike/slika11.jpg" width="300" height="320">
+			<figure>
+               <figcaption>Vir: Neža Kumalić, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+		<tr> 
+		    <td><i>6. faza</i></td>
+            <td>V predzadnji fazi sva vodni senzor pomaknila še globje v vodo in takrat je zasvetila rumena LED dioda - ko je 
+			senzor med eno tretjino in polovico njegove velikosti pod vodo.</td>
+            <td><img src="Slike/slika12.jpg" width="300" height="320">
+			<figure>
+               <figcaption>Vir: Neža Kumalić, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+		<tr> 
+		    <td><i>7. faza</i></td>
+            <td>V zadnji fazi pa sva vodni senzor pomaknila v vodo za več kot polovico njegove velikosti in takrat je zasvetila rdeča LED dioda.</td>
+            <td><img src="Slike/slika13.jpg" width="300" height="320">
+			<figure>
+               <figcaption>Vir: Neža Kumalić, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+</table>
+</div>
+
+<br></br>
+<p>Spodaj je tudi skica projekta v <a href="https://www.tinkercad.com/"target="_blank">Tinkercadu</a> za lažjo predstavo vezja,
+vendar senzor, ki je na skici, predstavlja senzor za merjenje vlažnosti tal in <b>NE</b> vodni senzor, saj ga v Tinkercadu ni, 
+a je le-ta najbolj podoben njemu. Sicer pa je vezava ista, kot če bi bil v vezju vodni senzor.</p>
+<img src="Slike/tinkercad.jpg" width="600" height="500" class="centered-image">
+    <figure>
+       <figcaption>Vir: Neža Kumalić, 2024</figcaption>
+    </figure>
+
+<br></br>
+<p>Tukaj pa je še <b>video</b> projekta.</p>
+<video width="600" height="500" controls>
+    <source src="Video/Video.mp4" type="video/mp4">
+</video>
+
+
+
+<footer class="site-footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a> Mail: neza.kumalic1@gmail.com</a></li>
+                    <li><a> Telefonska številka: 031 400 363</a></li>
+                </ul>
+            </nav>
+        </div>
+</footer>
+
+</body>
+</html>

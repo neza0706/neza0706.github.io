@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="s1">
+<head>
+<title>Moja spletna stran</title>
+<meta charset = "UTF-8">
+<meta name = "description" content = "Spletna stran">
+<meta name = "keywords" content = "html, spletna stran, tag">
+<meta name = "author" content = "Neža Kumalić">
+<meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+<link rel = "stylesheet" type = "text/css" href = "oblika.css"/>
+</head>
+<body>
+
+<div class="side-content left-content">
+    <!-- Vsebina leve stranske vsebine gre tukaj -->
+</div>
+<div class="side-content right-content">
+    <!-- Vsebina desne stranske vsebine gre tukaj -->
+</div>
+
+<header style="text-align: center;">                    
+
+        <h1>ARDUINO</h1>
+        
+</header>
+<nav>
+  <a href="index.html">DOMOV</a>
+  <a href="arduino.html">ARDUINO</a>
+  <div class="dropdown"> 
+        <a
+		button class="dropbtn">PROJEKT</button>
+		</a>
+        <div class="dropdown-content">
+            <a href="elementi.html">ELEKTRONSKI ELEMENTI</a>
+			<div class="dropdown-submenu">
+			    <a href="izvedba.html">IZVEDBA</a>
+                <div class="dropdown-submenu-content">
+					<a href="program.html">PROGRAM</a>
+                    <a href="projekt_arduino.html">MOJ PROJEKT</a>                      
+                    <a href="uporabnost.html">UPORABNOST</a>		    
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="center">
+<table border="1">
+        <caption><h6>UPORABLJENI ELEKTRONSKI ELEMENTI V MOJEM PROJEKTU</h6></caption>
+        <tr> <!--vrstica tabele-->
+            <th>IME</th>
+            <th>NAMEN</th>
+            <th>SLIKA</th>
+        </tr>
+        <tr>
+            <td><i>Arduino uno</i></td> <!-- značka <i></i> predstavlja poševno pisavo -->
+            <td>Mikrokrmilniška plošča, ki nadzira delovanje vodnega senzorja in omogoča programiranje
+			    funkcionalnosti senzorja.</td>
+            <td><img src="Slike/slika1.jpg" width="300" height="170">
+			<figure>
+               <figcaption>Vir: Tinkercad, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+        <tr>
+            <td><i>Prototipska ploščica</i></td>
+            <td>Uporablja se kot platforma za povezovanje in organiziranje elektronskih komponent v vezju
+			    vodnega senzorja.</td>
+            <td><img src="Slike/slika2.jpg" width="300" height="200">
+			<figure>
+               <figcaption>Vir: Tinkercad, 2024</figcaption>
+            </figure>
+			</td>
+        </tr>
+		<tr>
+		    <td><i>Vodni senzor</i></td>
+			<td>Skupaj z žensko-moško žico se povezuje na Arduino uno in se uporablja za zaznavanje prisotnosti 
+			vode v določenem okolju. Njegov namen je prepoznati mokro stanje ter sprožiti 
+			ustrezne ukrepe ali opozorila na podlagi teh informacij.</td>
+            <td><img src="Slike/senzor.jpg" width="300" height="200">
+			<figure>
+               <figcaption>Vir: Tinkercad, 2024</figcaption>
+            </figure>
+			</td>
+		</tr>
+		<tr>
+		    <td><i>Žica ženski-moški</i></td>
+			<td>Uporablja se za povezovanje Arduino Uno plošče s prototipsko ploščo ter drugih komponent
+			    s prototipsko ploščo.</td>
+            <td><img src="Slike/slika3.jpg" width="300" height="200">
+			<figure>
+               <figcaption>Vir: Argas, 2024</figcaption>
+            </figure>
+			</td>
+		</tr>
+		<tr>
+		    <td><i>Žica moška</i></td>
+			<td>Uporablja se za povezovanje različnih komponent z uporom, LED diodo in vodnim senzorjem
+			    med seboj in s prototipsko ploščo.</td>
+            <td><img src="Slike/žica.jpg" width="300" height="200">
+			<figure>
+               <figcaption>Vir: Az-delivery, 2024</figcaption>
+            </figure>
+			</td>
+		</tr>
+		<tr>
+		    <td><i>LED dioda</i></td>
+			<td>Uporablja se kot indikator za stanje vode; na primer, lahko sveti, ko je voda zaznana.</td>
+            <td><img src="Slike/slika5.jpg" width="300" height="200">
+			<figure>
+               <figcaption>Vir: Tinkercad, 2024</figcaption>
+            </figure>
+			</td>
+		</tr>
+		<tr>
+		    <td><i>Upor</i></td>
+			<td>Uporablja se za omejevanje toka, ki gre skozi LED diodo, in za zaščito diode pred
+			    prekomernim tokom.</td>
+            <td><img src="Slike/slika6.jpg" width="300" height="200">
+			<figure>
+               <figcaption>Vir: Tinkercad, 2024</figcaption>
+            </figure>
+			</td>
+		</tr>
+		<tr>
+		    <td><i>Lonček za vodo</i></td>
+			<td>V lončku se nahaja voda, ki jo vodni senzor zazna. Ta senzor deluje na osnovi spremembe
+			    električne prevodnosti vode, zato je lonček za vodo ključen del sistema za testiranje
+				senzorja.</td>
+            <td><img src="Slike/kozarec.jpg" width="250" height="270">
+			<figure>
+               <figcaption>Vir: Kulina, 2024</figcaption>
+            </figure>
+			</td>
+		</tr>
+		<tr>
+		    <td><i>USB kabel</i></td>
+			<td>Uporablja se za povezavo računalnika z Arduinom, s tem pa omogoča prenos programske kode iz računalnika v Arduino.</td>
+            <td><img src="Slike/USB.jpg" width="250" height="270">
+			<figure>
+               <figcaption>Vir: Arduino, 2024</figcaption>
+            </figure>
+			</td>
+		</tr>
+</table>
+</div>
+
+<footer class="site-footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a> Mail: neza.kumalic1@gmail.com</a></li>
+                    <li><a> Telefonska številka: 031 400 363</a></li>
+                </ul>
+            </nav>
+        </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,238 @@
+header, section, footer, body {
+	display:block;
+    }
+body{
+	margin:auto ; /*lastnost margin določa debelino nevidne obrobe okoli elementa. To obrobo določimo, 
+	kadar želimo predpisati, koliko naj bodo posamezni elementi razmaknjeni.*/
+	width: 980px;
+	background-color: #FFF0F5; /*ozadje*/
+	color: #000000; /*barva teksta*/
+}
+header{
+	margin: 40px 0px 40px; /*zg.,desno, sp., levo;zg,levo-desno,spodaj;zg-sp,levo-desno*/
+	font-size: 40px;
+}
+nav{
+	height: 80px;
+	background: #E6E6FA;
+	/*-webkit-border-radius: 30px;-moz-border-radius: 30px;*/
+	
+	padding: 4px; /*Ko se želi ustvariti prazen prostor med obrobo in vsebino elementa*/
+	margin:20px 100px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+nav a{
+	text-decoration:none;
+	background-color: #E6E6FA;
+    color: black;
+    padding: 16px;
+    font-size: 23px;
+    border: none;
+}
+
+.square {
+    width: 600px; /* določite želeno širino */
+    height: 100px; /* določite želeno višino */
+    background-color: #FFF0F5; /* barva ozadja kvadrata */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: #fff; /* barva ozadja podnaslova */
+    border: 2px solid #333; /* debelina in barva roba */
+}
+
+.center {
+    margin: auto; /* avtomatski margini za horizontalno centriranje */
+    width: 100%; /* lahko prilagodite glede na potrebe */
+	text-align: center;
+}
+
+
+}
+footer {float:center; 
+     width: 980px;
+	 position: relative;
+	 background: Gray;
+	 padding: 15px;
+	 margin-bottom: 10px;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #E6E6FA;
+    color: black;
+    padding: 12px;
+    font-size: 23px;
+    border: none;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the nested dropdown */
+.dropdown-submenu {
+    position: relative;
+}
+
+/* Style the nested dropdown content (hidden by default) */
+.dropdown-submenu-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the nested dropdown content on hover */
+.dropdown-submenu:hover .dropdown-submenu-content {
+    display: block;
+}
+
+.site-footer {
+    background-color: #333; /* Barva ozadja stopala */
+    color: #fff; /* Barva besedila */
+    padding: 20px 0; /* Notranji razmik */
+}
+
+.container {
+    max-width: 1200px; /* Maksimalna širina vsebine */
+    margin: 0 auto; /* Postavitev na sredino */
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 40px; /* Razmik med povezavami */
+}
+
+.footer-nav ul li:last-child {
+    margin-right: 0; /* Odstrani razmik za zadnjo povezavo */
+}
+
+.footer-nav ul li a {
+    color: black; /* Barva povezav */
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline; /* Podčrtaj povezave ob prehodu z miško */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-left {
+    order: 1;
+    margin-right: 20px;
+    max-width: 100%; /* največja širina slike */
+}
+
+.image-right {
+    order: 2;
+    margin-left: 20px;
+    max-width: 100%; /* največja širina slike */
+}
+
+.alternate-list {
+    list-style-type: square; /* oznaka - kvadratek */
+}
+
+.circle-list {
+    list-style-type: circle; /* oznaka - krog */
+}
+
+.line-list {
+    list-style-type: none; /* Odstrani privzeto oznako */
+}
+
+.line-list li:before {
+    content: "-"; /* Dodajanje črtice na začetek vsakega elementa seznama */
+    margin-right: 5px; /* Dodatni prostor med črtico in besedilom */
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px; /* Omejitev maksimalne širine galerije */
+    margin: 0 auto; /* Samodejno horizontalno poravnavanje */
+    padding: 20px; /* Dodajanje nekaj prostora okoli galerije */
+}
+
+.image {
+    margin: 50px;
+}
+
+.side-content {
+    position: fixed; /* Omogoči absolutno pozicijo */
+    top: 0; /* Postavi element na vrh strani */
+    height: 100%; /* Nastavi višino na 100% celotne strani */
+    width: 250px; /* Nastavi širino stranskega vsebine */
+    background-color: #E6E6FA; 
+}
+
+.left-content {
+    left: 0; /* Postavi levo stransko vsebino na levo stran telesa */
+}
+
+.right-content {
+    right: 0; /* Postavi desno stransko vsebino na desno stran telesa */
+}
+
+figcaption {
+	font-size: 15px;
+	text-align: center;
+}
+
+caption h6{
+	font-size:25px;
+}
+
